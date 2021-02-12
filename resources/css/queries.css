@@ -8,6 +8,11 @@
 
     .row { padding: 0 2%}
     
+    .meals-showcase li {
+        display: block;
+        float: right;
+        width: 50%;
+    }
 }
 
 /* Small tablets to big tablets: from 768 to 1023 */
@@ -65,6 +70,12 @@
 
     .contact-form {
         width: 80%;
+    }
+
+    .meals-showcase li {
+        display: block;
+        float: right;
+        width: 50%;
     }
 }
 

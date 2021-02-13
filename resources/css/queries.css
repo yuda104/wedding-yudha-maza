@@ -13,7 +13,17 @@
         float: right;
         width: 50%;
     }
+
+    .paragraf-salam {
+        padding-left: 0%;
+    }
+
+    .hitung-mundur {
+        padding-left: 17%;
+    }
 }
+
+
 
 /* Small tablets to big tablets: from 768 to 1023 */
 @media only screen and (max-width: 1023px) {
@@ -99,6 +109,14 @@
         background-position: center;
         height: 100vh;
         background-attachment: fixed;
+    }
+
+    .paragraf-salam {
+        padding-left: 0%;
+    }
+
+    .hitung-mundur {
+        padding-left: 10%;
     }
 
     body {
@@ -200,6 +218,10 @@
 }
 
 /* Small phones: from 0 to 480px */
+.paragraf-salam {
+    padding-left: 0%;
+}
+
 @media only screen and (max-width: 480px) {
     section {padding: 25px 0;}
     .contact-form {width: 100%;}

@@ -9,6 +9,14 @@ Orange color : e67e22
 /* Basic Setup */
 /* ----------------------- */
 
+.paragraf-salam {
+    padding-left: 15%;
+}
+
+.hitung-mundur {
+    padding-left: 30%;
+}
+
 * {
     margin: 0;
     padding: 0;

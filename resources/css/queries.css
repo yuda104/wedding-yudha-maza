@@ -17,6 +17,16 @@
 
 /* Small tablets to big tablets: from 768 to 1023 */
 @media only screen and (max-width: 1023px) {
+
+    header {
+        background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/HomeBackgroundTablet.JPG);
+        background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/HomeBackgroundTablet.JPG);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
     body {
         font-size: 80%;
     }
@@ -81,6 +91,16 @@
 
 /* Small phones to small tablets: from 481 to 767 */
 @media only screen and (max-width: 767px) {
+
+    header {
+        background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/HomeBackgroundTablet.JPG);
+        background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/HomeBackgroundTablet.JPG);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
     body {
         font-size: 16px;
     }

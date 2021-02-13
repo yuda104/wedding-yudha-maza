@@ -149,10 +149,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 var marker = L.marker([-6.253752827177549, 106.8704594978605]).addTo(mymap);
 
-var popup = L.popup()
-    .setLatLng([-6.253752827177549, 106.8704594978605])
-    .setContent("Disini acaranya")
-    .openOn(mymap);
+// var popup = L.popup()
+//     .setLatLng([-6.253752827177549, 106.8704594978605])
+//     .setContent("Disini acaranya")
+//     .openOn(mymap);
 
     //-6.253752827177549, 106.8704594978605
 
